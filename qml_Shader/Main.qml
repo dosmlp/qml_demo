@@ -19,6 +19,7 @@ Window {
                 width: 400; height: 200
                 fillMode: VideoOutput.PreserveAspectFit
             }
+            //可以将任意的item转化为texture，使其成为ShaderEffect的纹理输入
             ShaderEffectSource {
                 id: source_s
                 sourceItem: video_view
